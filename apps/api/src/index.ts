@@ -2,7 +2,9 @@ import { Hono } from "hono";
 import { cors } from "hono/cors";
 
 type Bindings = {
-  // Add your Cloudflare bindings here (KV, D1, R2, etc.)
+  DB: D1Database;
+  RESEND_API_KEY: string;
+  MAGIC_LINK_BASE_URL: string;
 };
 
 const app = new Hono<{ Bindings: Bindings }>();
