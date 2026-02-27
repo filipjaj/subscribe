@@ -1,6 +1,7 @@
 {
   "$schema": "node_modules/wrangler/config-schema.json",
   "name": "api",
+  "account_id": "ae231375677472cda58328ad6d0c403a",
   "main": "src/index.ts",
   "compatibility_date": "2026-02-10",
   "compatibility_flags": ["nodejs_compat"],
@@ -11,7 +12,7 @@
     {
       "binding": "DB",
       "database_name": "subscribe-db",
-      "database_id": "local"
+      "database_id": "b22fea62-7292-44bf-809a-cd85c3e6a67a"
     }
   ]
 }
