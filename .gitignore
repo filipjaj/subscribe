@@ -6,3 +6,4 @@ dist
 .vinxi
 .nitro
 *.local
+.worktrees
